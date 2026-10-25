@@ -1,0 +1,42 @@
+# Experiment: Wireshark Packet Capture and Analysis
+
+## Aim
+To capture, save, view, and analyze network packets using Wireshark.
+
+## Software Required
+Wireshark network protocol analyzer.
+
+## Procedure
+
+### 1. Capture Network Packets
+1. Open the Wireshark application.
+2. Go to **View → Wireless Toolbar**, if required.
+3. Select the required wireless channel and channel width.
+4. Choose the appropriate network interface.
+5. Click **Start Capture** to begin capturing packets.
+6. Observe the packets and click **Stop** after some time.
+
+### 2. Save the Captured Packets
+1. Click **File → Save**.
+2. Enter a suitable file name and select the save location.
+3. Save the captured packets in `.pcap` or `.pcapng` format.
+
+### 3. Start Wireshark Capture
+1. Open Wireshark and select the required network interface.
+2. Click **Capture → Start** or use the Start button.
+3. Observe the captured packets in the packet list, including their source, destination, protocol, and length.
+
+### 4. View Captured Traffic
+1. Select a packet from the packet list.
+2. Choose a TCP packet to view its details.
+3. Expand the protocol layers to examine Ethernet, IP, TCP, and other available information.
+4. Open the packet in a separate window if required.
+
+### 5. Analyze Network Traffic
+1. Open the **Analyze** menu and select the required filtering option.
+2. Apply a suitable display filter to view specific packets.
+3. Right-click a TCP packet and select **Follow → TCP Stream** to view the TCP conversation.
+4. Examine the packet details to understand the communication between devices.
+
+## Result
+Network packets were successfully captured, saved, viewed, and analyzed using Wireshark.
